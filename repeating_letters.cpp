@@ -5,7 +5,6 @@
 
 std::vector<char> repeating_letters(std::vector<std::string>& words){
     bool found = true;
-    int n = words.size();
     std::vector<char> repeat;
     for(char c: words[0]){
         for (std::string word: words){
